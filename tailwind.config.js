@@ -5,6 +5,9 @@ export default {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
+        agbalumo: ["Agbalumo", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
   },
