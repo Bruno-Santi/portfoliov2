@@ -10,17 +10,17 @@ export const Contact = () => {
     reset,
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+  
     if (Object.keys(errors).length === 0) {
-      // No hay errores, puedes enviar el correo electrónico
-      const serviceID = "service_vw83gnw"; // Reemplaza con tu ID de servicio
-      const templateID = "template_eyvee6a"; // Reemplaza con tu ID de plantilla
-      const userID = "fJBB05iscgidunIyk"; // Reemplaza con tu ID de usuario
+
+      const serviceID = "service_vw83gnw"; 
+      const templateID = "template_eyvee6a"; /
+      const userID = "fJBB05iscgidunIyk"; 
       const emailData = {
-        to_name: "Bruno", // Nombre del destinatario
-        from_name: data.Nombre, // Nombre del remitente desde tu formulario
+        to_name: "Bruno", 
+        from_name: data.Nombre, 
         message: data.Mensaje,
-        email: data.Email, // Mensaje desde tu formulario
+        email: data.Email,
       };
       emailjs
         .send(serviceID, templateID, emailData, userID)
