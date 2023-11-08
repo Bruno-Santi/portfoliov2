@@ -1,22 +1,8 @@
-import {} from "react-icons";
-import { FaLinkedin, FaGithub, FaArrowDown } from "react-icons/fa";
-import Avatar from "../assets/brunologo.png";
-import { ReverseReveal } from "./ReverseReveal";
-
+import { FaArrowDown } from "react-icons/fa";
+import { Avatar } from "../assets";
+import { ReverseReveal } from "../ui/index";
+import { SOCIAL } from "../data";
 export const Hero = () => {
-  const SOCIAL = [
-    {
-      id: 1,
-      link: "https://www.linkedin.com/in/bruno-santimaria",
-      icon: <FaLinkedin />,
-    },
-    {
-      id: 2,
-      link: "https://www.github.com/Bruno-Santi",
-      icon: <FaGithub />,
-    },
-  ];
-
   window.addEventListener("scroll", function () {
     const downArrow = document.querySelector(".down-arrow");
     if (this.scrollY >= 90) downArrow.classList.add("hide-down-arrow");
@@ -67,7 +53,7 @@ export const Hero = () => {
         </div>
 
         <div className='mt-10 down-arrow'>
-          <FaArrowDown className='text-gray-400 text-2xl animate-bounce' />
+          <FaArrowDown className='text-gray-400 mt-14 text-4xl animate-bounce' />
         </div>
       </section>
     </ReverseReveal>

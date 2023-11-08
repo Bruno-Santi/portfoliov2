@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Header, Hero, Services } from "./components";
 import "./index.css";
-import { Reveal } from "./components/Reveal";
-import { ReverseReveal } from "./components/ReverseReveal";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
