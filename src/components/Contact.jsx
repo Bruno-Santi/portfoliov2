@@ -10,15 +10,13 @@ export const Contact = () => {
     reset,
   } = useForm();
   const onSubmit = (data) => {
-  
     if (Object.keys(errors).length === 0) {
-
-      const serviceID = "service_vw83gnw"; 
-      const templateID = "template_eyvee6a"; /
-      const userID = "fJBB05iscgidunIyk"; 
+      const serviceID = "service_vw83gnw";
+      const templateID = "template_eyvee6a";
+      const userID = "fJBB05iscgidunIyk";
       const emailData = {
-        to_name: "Bruno", 
-        from_name: data.Nombre, 
+        to_name: "Bruno",
+        from_name: data.Nombre,
         message: data.Mensaje,
         email: data.Email,
       };
