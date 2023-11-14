@@ -24,4 +24,12 @@ export const proyectos = [
     demo: "https://tasty-meals.vercel.app/",
     tags: ["NextJs", "Redux", "Tailwind", "PostgreSQL", "Prisma"],
   },
+  {
+    id: 4,
+    title: "TrendSneakers",
+    photo: "https://res.cloudinary.com/di92lsbym/image/upload/v1699924102/604shots_so_hyjbcg.png",
+    github: "https://github.com/Bruno-Santi/trendsneaker",
+    demo: "https://trendsneakers.onrender.com/",
+    tags: ["React", "Redux", "Tailwind", "Framer Motion", "FireStore"],
+  },
 ];
