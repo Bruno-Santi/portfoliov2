@@ -46,7 +46,7 @@ export const Services = () => {
                   {tags.map((tag) => (
                     <span
                       key={tag}
-                      className='inline-flex mx-1 mt-4 lg:mt-4 items-center rounded-md bg-rose-400  px-2 py-1 text-xs lg:text-sm  text-gray-100 ring-1 ring-inset ring-red-600/10'
+                      className='inline-flex cursor-pointer duration-700 hover:text-rose-400 hover:bg-gray-100 mx-1 mt-4 lg:mt-4 items-center rounded-md bg-rose-400  px-2 py-1 text-xs lg:text-sm  text-gray-100 ring-1 ring-inset ring-red-600/10'
                     >
                       {tag}{" "}
                     </span>

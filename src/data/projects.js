@@ -14,7 +14,7 @@ export const proyectos = [
     photo: "https://res.cloudinary.com/di92lsbym/image/upload/c_thumb,w_200,g_face/v1699455383/954shots_so_tdcggy.png",
     github: "https://github.com/Bruno-Santi/journal-app",
     demo: "https://journal-nq03.onrender.com/",
-    tags: ["React", "Redux", "Material UI", "FireBase Auth", "FireBase DB"],
+    tags: ["React", "Redux", "Material UI", "FireBase Auth", "FireStore"],
   },
   {
     id: 3,

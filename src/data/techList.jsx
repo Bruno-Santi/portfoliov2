@@ -8,6 +8,7 @@ import {
   BiLogoNodejs,
   BiLogoMongodb,
   BiLogoPostgresql,
+  BiLogoFirebase,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMui, SiExpress, SiNestjs } from "react-icons/si";
@@ -76,5 +77,10 @@ export const techList = [
     id: 13,
     name: "PostgreSQL",
     icon: <BiLogoPostgresql />,
+  },
+  {
+    id: 14,
+    name: "FireBase",
+    icon: <BiLogoFirebase />,
   },
 ];

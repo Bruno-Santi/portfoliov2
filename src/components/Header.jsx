@@ -1,4 +1,3 @@
-import { forwardRef } from "react";
 import { MdNightlightRound, MdWbSunny } from "react-icons/md";
 import { Link } from "react-scroll";
 
